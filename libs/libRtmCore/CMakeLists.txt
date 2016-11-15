@@ -16,7 +16,9 @@ project(RtmCore)
 # Define sources
 #############################################################
 set(RtmCore_SRCS
-    src/librtmcore_global.h
+    src/core/rtmcore_export.h
+    src/core/rtmcore_global.h
+    src/core/rtmcore_namespace.h
 )
 
 ##########################################################

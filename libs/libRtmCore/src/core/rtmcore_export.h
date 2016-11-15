@@ -1,5 +1,5 @@
-#ifndef RTMCORE_GLOBAL_H
-#define RTMCORE_GLOBAL_H
+#ifndef RTMCORE_EXPORT_H
+#define RTMCORE_EXPORT_H
 
 #include <QtCore/qglobal.h>
 
@@ -9,4 +9,4 @@
 #  define RTMCORESHARED_EXPORT Q_DECL_IMPORT
 #endif
 
-#endif // RTMCORE_GLOBAL_H
+#endif // RTMCORE_EXPORT_H
